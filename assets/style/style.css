@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #28223f;
+}
+
+.container {
+  margin: 100px auto;
+  background: #231e39;
+  color: #b3b8cd;
+  border-radius: 5px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.75);
+}
+
+.cover-photo {
+  background: url(/assets/image/sky-light.jpg);
+  height: 160px;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.profile {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 93px 0 0 -175px;
+  border: 1px solid #1f1a32;
+  padding: 7px;
+  background: #292343;
+}
+
+.profile-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 27px 0 0 140px;
+}
+
+.about {
+  margin-top: 35px;
+  line-height: 21px;
+}
+
+.button-group {
+  margin: 10px 0 40px 0;
+}
+
+button {
+  width: 250px;
+  background: #03bfbc;
+  border: 1px solid #03bfbc;
+  padding: 10px 25px;
+  margin-bottom: 8px;
+  color: #231e39;
+  border-radius: 3px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  background: #049593;
+  border: 1px solid #049593;
+}
+
+.icon-group i {
+  color: #b3b8cd;
+  padding-left: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.icon-group .one {
+  padding-left: 0;
+}
+
+.icon-group i:hover {
+  color: #03bfbc;
+}
+
+@media all and (max-width: 670px) {
+  .container {
+    margin: 50px auto;
+  }
+}
