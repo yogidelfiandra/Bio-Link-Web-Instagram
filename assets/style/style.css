@@ -6,7 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: #28223f;
+  background: #473d70;
 }
 
 .container {
@@ -137,7 +137,7 @@ body {
   border: 1px solid #cc3e07;
 }
 
-.icon-group i {
+.icon-group > a > i {
   color: #b3b8cd;
   padding-left: 20px;
   font-size: 20px;
@@ -145,11 +145,11 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.icon-group .one {
+.icon-group > a > .one {
   padding-left: 0;
 }
 
-.icon-group i:hover {
+.icon-group > i:hover {
   color: #039c48;
 }
 
