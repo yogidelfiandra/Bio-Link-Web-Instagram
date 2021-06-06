@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  margin: 100px auto;
+  margin: 50px auto;
   background: #231e39;
   color: #b3b8cd;
   border-radius: 5px;
@@ -21,6 +21,7 @@ body {
 
 .cover-photo {
   background: url(/assets/image/sky-light.jpg);
+  background-size: cover;
   height: 160px;
   width: 100%;
   border-radius: 5px 5px 0 0;
@@ -31,9 +32,9 @@ body {
   width: 120px;
   border-radius: 50%;
   margin: 93px 0 0 -175px;
-  border: 1px solid #1f1a32;
+  border: 1px solid #231e39;
   padding: 7px;
-  background: #292343;
+  background: #231e39;
 }
 
 .profile-name {
@@ -47,24 +48,81 @@ body {
   line-height: 21px;
 }
 
-.button-group {
-  margin: 10px 0 40px 0;
+.btn-wrapper {
+  margin: 40px auto;
+}
+.btn-wrapper > div > span {
+  font-size: 24px;
+  color: #fff;
 }
 
-button {
+.btn {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
   width: 250px;
-  background: #03bfbc;
-  border: 1px solid #03bfbc;
   padding: 10px 25px;
-  margin-bottom: 8px;
-  color: #231e39;
-  border-radius: 3px;
+  border-radius: 5px;
+  margin: 10px auto;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
 }
-button:hover {
-  background: #049593;
-  border: 1px solid #049593;
+
+.cta {
+  width: 180px;
+}
+
+.btn > .cta > a > h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+.btn > .cta > a > p {
+  color: rgb(189, 189, 189);
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.portfolio {
+  background: #039c48;
+  border: 1px solid #039c48;
+  transition: all 0.5s ease;
+}
+.portfolio:hover {
+  background: #037737;
+  border: 1px solid #037737;
+}
+
+.youtube {
+  background: #c4302b;
+  border: 1px solid #c4302b;
+  transition: all 0.5s ease;
+}
+.youtube:hover {
+  background: #972522;
+  border: 1px solid #972522;
+}
+
+.tiktok {
+  background: #010101;
+  border: 1px solid #010101;
+  transition: all 0.5s ease;
+}
+.tiktok:hover {
+  background: #161414;
+  border: 1px solid #161414;
+}
+
+.blogger {
+  background: #fc4f08;
+  border: 1px solid #fc4f08;
+  transition: all 0.5s ease;
+}
+.blogger:hover {
+  background: #cc3e07;
+  border: 1px solid #cc3e07;
 }
 
 .icon-group i {
@@ -73,17 +131,18 @@ button:hover {
   font-size: 20px;
   margin-bottom: 20px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 .icon-group .one {
   padding-left: 0;
 }
 
 .icon-group i:hover {
-  color: #03bfbc;
+  color: #039c48;
 }
 
-@media all and (max-width: 670px) {
-  .container {
-    margin: 50px auto;
-  }
+.footer {
+  text-align: center;
+  font-size: 14px;
+  color: #b3b8cd;
 }
